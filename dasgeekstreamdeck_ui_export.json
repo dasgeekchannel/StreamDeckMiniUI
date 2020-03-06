@@ -1,0 +1,84 @@
+{
+    "streamdeck_ui_version": 1,
+    "state": {
+        "BL36H1A12706": {
+            "buttons": {
+                "0": {
+                    "0": {
+                        "write": "Switches to OBS from Command wmctrl -xa obs. Identify OBS window using xprop. Then uses a hotkey in OBS (you must setup hotkeys for your Scenes in OBS first) to move to a camera + desktop view as default. Non-studio mode. ",
+                        "icon": "/home/dasgeek/Downloads/72/Large/window-restore.regular.png",
+                        "text": "OBSDual",
+                        "command": "wmctrl -xa obs",
+                        "keys": "ctrl+alt+2",
+                        "switch_page": 0
+                    },
+                    "1": {
+                        "keys": "ctrl+alt+1",
+                        "write": "",
+                        "text": "OBSFullCam",
+                        "icon": "/home/dasgeek/Downloads/72/Large/camera-retro.solid.png",
+                        "command": "wmctrl -xa obs"
+                    },
+                    "2": {
+                        "keys": "ctrl+alt+3",
+                        "write": "",
+                        "text": "OBSDesk",
+                        "icon": "/home/dasgeek/Downloads/72/Large/window-maximize.regular.png",
+                        "command": "wmctrl -xa obs"
+                    },
+                    "3": {
+                        "keys": "ctrl+tab+m",
+                        "write": "This is setup under Global shortcuts in KDE desktop. You could also just use OBS as well. But this way it mutes my mic system wide. ",
+                        "text": "Mute",
+                        "command": "",
+                        "icon": "/home/dasgeek/Downloads/72/Large/microphone-alt-slash.solid.png"
+                    },
+                    "4": {
+                        "keys": "alt+tab",
+                        "write": "",
+                        "text": "",
+                        "command": "",
+                        "switch_page": 0
+                    },
+                    "5": {
+                        "write": "",
+                        "switch_page": 2,
+                        "icon": "/home/dasgeek/Downloads/72/Large/arrow-alt-circle-right.solid.png",
+                        "text": "SwitchPage"
+                    }
+                },
+                "1": {
+                    "0": {
+                        "write": "",
+                        "keys": "",
+                        "text": "",
+                        "switch_page": 0,
+                        "command": ""
+                    },
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {
+                        "write": "",
+                        "switch_page": 1,
+                        "text": "Page1",
+                        "icon": "/home/dasgeek/Downloads/72/Large/arrow-circle-left.solid.png"
+                    }
+                },
+                "2": {
+                    "0": {
+                        "write": ""
+                    },
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {}
+                }
+            },
+            "brightness": 79,
+            "page": 0
+        }
+    }
+}

@@ -5,46 +5,50 @@
             "buttons": {
                 "0": {
                     "0": {
-                        "write": "Switches to OBS from Command wmctrl -xa obs. Identify OBS window using xprop. Then uses a hotkey in OBS (you must setup hotkeys for your Scenes in OBS first) to move to a camera + desktop view as default. Non-studio mode. ",
-                        "icon": "/home/dasgeek/Downloads/72/Large/window-restore.regular.png",
-                        "text": "OBSDual",
-                        "command": "wmctrl -xa obs",
-                        "keys": "ctrl+alt+2",
+                        "write": "OpenOBS. Leave first key as non-macro for OBS as it is buggy in StreamDeck using it as a macro. Will stop recording in OBS no matter shortcut chosen. ",
+                        "icon": "/home/dasgeek/Downloads/72/Large/exchange-alt.solid.png",
+                        "text": "OpenOBS",
+                        "command": "obs",
+                        "keys": "",
                         "switch_page": 0
                     },
                     "1": {
                         "keys": "ctrl+alt+1",
-                        "write": "",
+                        "write": "Fullscreen camera.",
                         "text": "OBSFullCam",
                         "icon": "/home/dasgeek/Downloads/72/Large/camera-retro.solid.png",
                         "command": "wmctrl -xa obs"
                     },
                     "2": {
                         "keys": "ctrl+alt+3",
-                        "write": "",
+                        "write": "Desktop Only",
                         "text": "OBSDesk",
                         "icon": "/home/dasgeek/Downloads/72/Large/window-maximize.regular.png",
                         "command": "wmctrl -xa obs"
                     },
                     "3": {
                         "keys": "ctrl+tab+m",
-                        "write": "This is setup under Global shortcuts in KDE desktop. You could also just use OBS as well. But this way it mutes my mic system wide. ",
+                        "write": "OpenOBS. Leave first key as non-macro for OBS as it is buggy in StreamDeck using it as a macro. Will stop recording in OBS no matter shortcut chosen. This is setup under Global shortcuts in KDE desktop. You could also just use OBS as well. But this way it mutes my mic system wide. ",
                         "text": "Mute",
                         "command": "",
-                        "icon": "/home/dasgeek/Downloads/72/Large/microphone-alt-slash.solid.png"
+                        "icon": "/home/dasgeek/Downloads/72/Large/microphone-alt-slash.solid.png",
+                        "switch_page": 0
                     },
                     "4": {
-                        "keys": "alt+tab",
-                        "write": "",
-                        "text": "",
+                        "keys": "ctrl+alt+2",
+                        "write": "Switches to OBS from Command wmctrl -xa obs. Identify OBS window using xprop. Then uses a hotkey in OBS (you must setup hotkeys for your Scenes in OBS first) to move to a camera + desktop view as default. Non-studio mode. ",
+                        "text": "OBSCombo",
                         "command": "",
-                        "switch_page": 0
+                        "switch_page": 0,
+                        "icon": "/home/dasgeek/Downloads/72/Large/superpowers.brands.png"
                     },
                     "5": {
                         "write": "",
                         "switch_page": 2,
                         "icon": "/home/dasgeek/Downloads/72/Large/arrow-alt-circle-right.solid.png",
-                        "text": "SwitchPage"
+                        "text": "SwitchPage",
+                        "command": "",
+                        "keys": ""
                     }
                 },
                 "1": {
@@ -82,7 +86,8 @@
                         "write": "",
                         "switch_page": 1,
                         "text": "Page1",
-                        "icon": "/home/dasgeek/Downloads/72/Large/arrow-circle-left.solid.png"
+                        "icon": "/home/dasgeek/Downloads/72/Large/arrow-circle-left.solid.png",
+                        "command": ""
                     }
                 },
                 "2": {
@@ -97,7 +102,7 @@
                 }
             },
             "brightness": 79,
-            "page": 1
+            "page": 0
         }
     }
 }
